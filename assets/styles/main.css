@@ -1,0 +1,42 @@
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* footer */
+.footer {
+    color: #F9F9F9;
+    font-family: TT Hoves;
+    font-style: normal;
+    background-color: #333;
+}
+
+.footer h3 {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+footer li {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.copyright {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.footer-nav-item {
+    color: #F9F9F9;
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}

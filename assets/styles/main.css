@@ -20,7 +20,6 @@ li {
     font-family: TT Hoves;
     font-style: normal;
     background-color: #333;
-    padding: 40px 112px;
 }
 
 .footer h3 {
@@ -105,6 +104,11 @@ footer-logo img {
 }
 
 @media (min-width: 1000px) {
+
+    .footer {
+        padding: 40px 112px;
+    }
+
     .footer-info {
         grid-template-areas: "footer-logo footer-map footer-info";
         grid-template-columns: repeat(3, 30%);
@@ -114,6 +118,11 @@ footer-logo img {
 }
 
 @media (min-width: 600px) and (max-width: 999px) {
+
+    .footer {
+        padding: 20px 50px;
+    }
+
     .footer-info {
         grid-template-areas: "footer-logo footer-logo"
                         "footer-map footer-info"  ;
@@ -124,12 +133,21 @@ footer-logo img {
 }
 
 @media (max-width: 599px) {
+
+    .footer {
+        padding: 10px 20px;
+    }
+
     .footer-info {
         grid-template-areas: "footer-logo"
                         "footer-map"
                         "footer-info"  ;
         grid-template-columns: 1fr;
-        grid-template-rows: 0.3fr 1fr 1fr;
+        grid-template-rows: 0.3fr 1fr 0.8fr;
         justify-content: space-around;
     }
+
+    .footer-logo, .footer-map {
+        margin-bottom: 15%;
+    } 
 }

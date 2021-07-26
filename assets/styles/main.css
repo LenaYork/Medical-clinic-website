@@ -280,6 +280,70 @@ li {
     justify-content: space-between;
 }
 
+/* questions answers */
+.qa {
+    padding: 5%;
+    background-color: #32495E;
+}
+
+.qa-title {
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #F9F9F9;
+    margin-bottom: 5%;
+}
+
+.qa-container {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 4fr; */
+}
+
+.qa-questions p {
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F9F9F9;
+}
+
+.qa-answer-title {
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F9F9F9;
+}
+
+.qa-questions {
+    grid-area: qa-questions;
+}
+
+.qa-answer {
+    font-family: TT Hoves;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F9F9F9;
+    grid-area: qa-answers;
+}
+
+.qa-circles {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 290px;
+    margin-top: 18px;
+    grid-area: qa-circles;
+}
+
 /* footer */
 .footer {
     box-sizing: border-box;
@@ -375,6 +439,12 @@ footer-logo img {
 
 @media (min-width: 1000px) {
 
+    .qa-container {
+        display: grid;
+        grid-template-areas: "qa-questions qa-circles qa-answers";
+        grid-template-columns: 1fr 1fr 4fr;
+    }
+
     .footer {
         padding: 40px 112px;
     }
@@ -399,6 +469,12 @@ footer-logo img {
         grid-template-columns: 2fr 1fr;
         grid-template-rows: 1fr 1fr;
         justify-content: stretch;
+    }
+
+    .qa-container {
+        display: grid;
+        grid-template-areas: "qa-questions qa-circles qa-answers";
+        grid-template-columns: 1fr 1fr 4fr;
     }
 
     .footer {
@@ -431,6 +507,13 @@ footer-logo img {
 
     .price-name, .price-number {
         font-size: 12px;
+    }
+
+    .qa-container {
+        grid-template-areas: "qa-questions qa-circles"
+                            "qa-answers qa-answers";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.2fr 0.2fr;
     }
 
     .footer {

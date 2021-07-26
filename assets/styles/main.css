@@ -255,6 +255,29 @@ li {
     margin: 0 auto;
     margin-top: 3%;
     border: 1px solid #32495E;
+    color: #32495E;
+}
+
+/* recommendations */
+.recommend {
+    padding: 5%;
+}
+
+.recommend-title {
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #32495E;
+    margin-bottom: 5%;
+}
+
+.recommend-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    justify-content: space-between;
 }
 
 /* footer */
@@ -364,7 +387,7 @@ footer-logo img {
     }
 }
 
-@media (min-width: 620px) and (max-width: 999px) {
+@media (min-width: 630px) and (max-width: 999px) {
     .price {
         text-align: center;
     }
@@ -391,7 +414,7 @@ footer-logo img {
     }
 }
 
-@media (max-width: 619px) {
+@media (max-width: 630px) {
 
     .price {
         text-align: center;

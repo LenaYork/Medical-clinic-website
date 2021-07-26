@@ -199,6 +199,64 @@ li {
     color: #32495E;
 }
 
+/* price-list */
+.price {
+    padding: 5%;
+}
+
+.price-title {
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 52px;
+    /* identical to box height, or 118% */
+    text-transform: uppercase;
+    color: #32495E;
+}
+
+
+
+.price-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 1fr;
+    justify-content: space-between;
+}
+
+.prices-table-title {
+    margin-bottom: 25px;
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #32495E;
+}
+
+.price-name {
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8093AC;
+}
+
+.price-number {
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #32495E;
+}
+
+.price-button {
+    margin: 0 auto;
+    margin-top: 3%;
+    border: 1px solid #32495E;
+}
+
 /* footer */
 .footer {
     box-sizing: border-box;
@@ -306,7 +364,19 @@ footer-logo img {
     }
 }
 
-@media (min-width: 600px) and (max-width: 999px) {
+@media (min-width: 620px) and (max-width: 999px) {
+    .price {
+        text-align: center;
+    }
+
+    .price-container {
+        width: 70%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: stretch;
+    }
 
     .footer {
         padding: 20px 50px;
@@ -321,7 +391,24 @@ footer-logo img {
     }
 }
 
-@media (max-width: 599px) {
+@media (max-width: 619px) {
+
+    .price {
+        text-align: center;
+    }
+
+    .price-container {
+        width: 70%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: stretch;
+    }
+
+    .price-name, .price-number {
+        font-size: 12px;
+    }
 
     .footer {
         padding: 10px 20px;
@@ -351,6 +438,7 @@ footer-logo img {
     font-size: 14px;
     line-height: 17px;
     text-align: center;
+    display: block;
 }
 
 .button:hover {
@@ -361,3 +449,10 @@ footer-logo img {
     cursor: pointer;
 }
 
+.cardio:active {
+    width: 65%;
+}
+
+.trauma:active {
+    width: 65%;
+}

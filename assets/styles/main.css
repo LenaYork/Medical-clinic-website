@@ -13,6 +13,7 @@ li {
 .main-container {
     max-width: 1400px;
     position: relative;
+    margin:0 auto;
 }
 
 /* header */
@@ -210,12 +211,9 @@ li {
     font-weight: 800;
     font-size: 35px;
     line-height: 52px;
-    /* identical to box height, or 118% */
     text-transform: uppercase;
     color: #32495E;
 }
-
-
 
 .price-container {
     display: grid;
@@ -342,6 +340,51 @@ li {
     height: 290px;
     margin-top: 18px;
     grid-area: qa-circles;
+}
+
+/* contacts */
+.contacts {
+    background-color: #F9F9F9;
+    padding: 5%;
+}
+
+.contacts-container {
+    display: grid;
+    /* grid-template-areas: "contacts-map"
+                        "contacts-address contacts-phones contacts-additional"; */
+    grid-template-columns: repeat(auto-fit, 260px);
+    grid-template-rows: 1fr;
+    justify-content: space-between;
+}
+
+.contacts-title {
+    margin-bottom: 5%;
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #32495E;
+}
+
+.contacts-subtitle {
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #32495E;
+}
+
+.contacts-text {
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #32495E;
+    margin: 0;
 }
 
 /* footer */

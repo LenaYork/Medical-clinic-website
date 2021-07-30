@@ -200,6 +200,114 @@ li {
     color: #32495E;
 }
 
+/* services */
+.our-services {
+    padding: 5%;
+    background-color: #32495E;
+}
+
+.our-services-title {
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #F9F9F9;
+    padding-bottom: 25px;
+}
+
+.our-services-area {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 279px);
+    justify-content: space-between;
+    align-content: initial;
+}
+
+.our-services-item {
+    width: 281px;
+    height: 322px;
+    margin-bottom: 20px;
+}
+
+.our-services-bg {
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+.our-services-bg1 {
+    background-image: url("../pics/services/service1.png");
+    /* width: 281px; */
+    height: 322px;
+}
+
+.our-services-bg2 {
+    background-image: url("../pics/services/service2.png");
+    /* width: 240px; */
+    height: 280px;
+}
+
+.our-services-bg3 {
+    background-image: url("../pics/services/service3.png");
+    /* width: 240px; */
+    height: 280px;
+}
+
+.our-services-bg4 {
+    background-image: url("../pics/services/service4.png");
+    /* width: 240px; */
+    height: 280px;
+}
+
+.our-services-item-title {
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F9F9F9;
+}
+
+.our-services-hidden {
+    background-color: #E95258;
+    width: 90%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+}
+
+.our-service-hidden-text {
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F9F9F9;
+}
+
+.our-services-button {
+    border: 1px solid #F9F9F9;
+    color: #F9F9F9;
+    margin: 0 auto;
+    margin-top: 5%;
+
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #F9F9F9;
+}
+
+.pulse-sign {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+
 /* price-list */
 .price {
     padding: 5%;

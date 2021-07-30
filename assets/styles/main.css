@@ -222,6 +222,7 @@ li {
     grid-template-columns: repeat(auto-fit, 279px);
     justify-content: space-between;
     align-content: initial;
+    grid-gap: 10px;
 }
 
 .our-services-item {
@@ -306,6 +307,57 @@ li {
     position: absolute;
     top: 10%;
     left: 40%;
+}
+
+/* doctors */
+.doctors-title {
+    padding:  2% 5%;
+    background-color: #32495E;
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #F9F9F9;
+}
+
+.doctors-area {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 251px);
+    justify-content: space-between;
+    grid-gap: 5px;
+    padding: 5%;
+    padding-top: 2%;
+    background-color: #F9F9F9;
+}
+
+.doctors-item {
+    width: 241px;
+    height: 226px;    
+}
+
+.doctors-pic {
+padding-bottom: 15px;
+}
+
+.doctors-name {
+    margin-bottom: 15px;
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #32495E;
+}
+
+.doctors-text {
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #32495E;
 }
 
 /* price-list */

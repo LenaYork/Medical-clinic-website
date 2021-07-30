@@ -347,6 +347,11 @@ li {
     color: #F9F9F9;
 }
 
+.all-news-button {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
 /* recommendations */
 .recommend {
     padding: 5%;

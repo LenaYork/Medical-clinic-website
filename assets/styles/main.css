@@ -53,11 +53,12 @@ li {
 }
 
 .header-nav-dropdown {
-    /* justify-content: center; */
     margin-left: 3px;
     margin-bottom: 2px;
-    /* margin-bottom:2%; */
-    
+}
+
+.header-nav-dropdown:hover{
+    cursor: pointer;
 }
 
 /* main */
@@ -72,6 +73,7 @@ li {
     height: 800px;
     background-color: #E95258;
     position: relative;
+    transition: 3s;
 }
 
 .cardio-container {
@@ -451,11 +453,12 @@ padding-bottom: 15px;
     line-height: 17px;
     color: #F9F9F9;
     text-align: center;
+    border-bottom: 1px solid transparent;
 }
 
 .report-nav-item:hover {
     cursor: pointer;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #E95258;
 }
 
 .report-pics{
@@ -556,8 +559,12 @@ padding-bottom: 15px;
     opacity: 0.8;
 }
 
-.report-container img, .report-item-text {
+.play-video, .report-item-text {
     opacity: 1;
+}
+
+.play-video:hover {
+    cursor: pointer;
 }
 
 .report-button {
@@ -752,6 +759,10 @@ padding-bottom: 15px;
     height: 290px;
     margin-top: 18px;
     grid-area: qa-circles;
+}
+
+.qa-circle:hover, .qa-circle-active:hover{
+    cursor: pointer;
 }
 
 /* contacts */
@@ -1001,20 +1012,24 @@ footer-logo img {
     line-height: 17px;
     text-align: center;
     display: block;
+    transition: 2s;
 }
 
 .button:hover {
     cursor: pointer;
+    opacity: 0.5;
+    background-color: #E95258;
+    color: black;
 }
 
 .service:hover{
     cursor: pointer;
 }
 
-.cardio:active {
+.cardio:hover {
     width: 65%;
 }
 
-.trauma:active {
+.trauma:hover {
     width: 65%;
 }

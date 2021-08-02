@@ -1,5 +1,6 @@
 h2, h3 {
     margin: 0 auto;
+    transition: 2s;
 }
 
 a {
@@ -22,9 +23,9 @@ li {
     justify-content: space-between;
     position: absolute;
     top: 55px;
-    width: 100%;
+    width: 80%;
     max-width: 1170px;
-    margin-left: 172px;
+    /* margin-left: 172px; */
 }
 
 .header-logo {
@@ -33,9 +34,10 @@ li {
 }
 
 .header-nav {
-    width: 50%;
+    /* width: 50%; */
     margin-right: 58px;
     z-index: 1;
+    transition: 3s;
 }
 
 .header-nav ul {
@@ -61,6 +63,20 @@ li {
     cursor: pointer;
 }
 
+.menu-mobile {
+    padding-top: 2%;
+    width: 15%;
+}
+
+.menu-mobile img{
+    color: black;
+    z-index: 1;
+}
+
+.menu-mobile:hover {
+    cursor: pointer;
+}
+
 /* main */
 .main {
     display: flex;
@@ -81,7 +97,7 @@ li {
     grid-template-columns: 1fr;
     grid-template-rows: 2fr 1fr 1fr 1fr ;
     justify-items: end;
-    gap: 5%;
+    /* gap: 5%; */
     padding-right: 10%;
 }
 
@@ -95,13 +111,13 @@ li {
     font-family: TT Hoves;
     font-style: normal;
     font-weight: 800;
-    font-size: 26px;
+    /* font-size: 26px; */
     line-height: 36px;
     text-align: right;
     text-transform: uppercase;
     color: #F9F9F9; 
-    margin-top: 30%;
-    margin-left: 170px;
+    /* margin-top: 30%;
+    margin-left: 170px; */
 }
 
 .cardio-text {
@@ -146,9 +162,9 @@ li {
     padding-left: 10%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr 1fr 1fr ;
+    /* grid-template-rows: 2fr 1fr 1fr 1fr ; */
     justify-items: start;
-    gap: 5%;
+    /* gap: 5%; */
 }
 
 .trauma-bg {
@@ -161,11 +177,10 @@ li {
     font-family: TT Hoves;
     font-style: normal;
     font-weight: 800;
-    font-size: 26px;
+    /* font-size: 26px; */
     line-height: 36px;
     text-transform: uppercase;
     color: #32495E;
-    margin-top: 30%;
     margin-right: 170px;
 }
 
@@ -212,7 +227,7 @@ li {
     font-family: TT Hoves;
     font-style: normal;
     font-weight: 800;
-    font-size: 35px;
+    /* font-size: 35px; */
     line-height: 52px;
     text-transform: uppercase;
     color: #F9F9F9;
@@ -318,7 +333,7 @@ li {
     font-family: TT Hoves;
     font-style: normal;
     font-weight: 800;
-    font-size: 35px;
+    /* font-size: 35px; */
     line-height: 52px;
     text-transform: uppercase;
     color: #F9F9F9;
@@ -371,7 +386,7 @@ padding-bottom: 15px;
     font-family: TT Hoves;
     font-style: normal;
     font-weight: 800;
-    font-size: 35px;
+    /* font-size: 35px; */
     line-height: 52px;
     text-transform: uppercase;
     color: #32495E;
@@ -430,7 +445,7 @@ padding-bottom: 15px;
     font-family: TT Hoves;
     font-style: normal;
     font-weight: 800;
-    font-size: 35px;
+    /* font-size: 35px; */
     line-height: 52px;
     text-transform: uppercase;
     color: #F9F9F9;
@@ -599,7 +614,7 @@ padding-bottom: 15px;
     font-family: TT Hoves;
     font-style: normal;
     font-weight: 800;
-    font-size: 35px;
+    /* font-size: 35px; */
     line-height: 52px;
     text-transform: uppercase;
     color: #32495E;
@@ -684,7 +699,7 @@ padding-bottom: 15px;
     font-family: TT Hoves;
     font-style: normal;
     font-weight: 800;
-    font-size: 35px;
+    /* font-size: 35px; */
     line-height: 52px;
     text-transform: uppercase;
     color: #32495E;
@@ -707,7 +722,7 @@ padding-bottom: 15px;
     font-family: TT Hoves;
     font-style: normal;
     font-weight: 800;
-    font-size: 35px;
+    /* font-size: 35px; */
     line-height: 52px;
     text-transform: uppercase;
     color: #F9F9F9;
@@ -785,7 +800,7 @@ padding-bottom: 15px;
     font-family: TT Hoves;
     font-style: normal;
     font-weight: 800;
-    font-size: 35px;
+    /* font-size: 35px; */
     line-height: 52px;
     text-transform: uppercase;
     color: #32495E;
@@ -888,6 +903,10 @@ footer-logo img {
     grid-area: footer-info;
 }
 
+.footer-social-icon:hover{
+    cursor: pointer;
+}
+
 .up {
     position: absolute;
     right: 10%;
@@ -902,6 +921,80 @@ footer-logo img {
     transform: rotate(-90deg);
     text-align: center;
     margin-left: 0;
+}
+
+@media (min-width: 1188px) {
+    .header {
+        margin-left: 172px;
+    }
+
+    .header-nav {
+        width: 50%;
+    }
+
+    .cardio:hover {
+        width: 65%;
+    }
+
+    .trauma-container {
+        grid-template-rows: 2fr 1fr 1fr 1fr ;
+    }
+    
+    .trauma:hover {
+        width: 65%;
+    }
+
+    .trauma-title {
+        margin-top: 30%;
+    }
+
+    .cardio-title {
+        margin-top: 30%;
+        margin-left: 170px;
+    }
+
+    .trauma-container, .cardio-container {
+        gap: 5%;
+    }
+}
+
+@media (min-width: 631px) and (max-width: 1188px) {
+    .header {
+        flex-direction: column;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 1188px) {
+
+    .header-nav {
+        width: 90%;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .trauma-container {
+        grid-template-rows: 1fr 1fr 1fr 1fr ;
+    }
+    
+    .cardio, .trauma {
+        width: 100%;    
+    }
+
+    .trauma-title {
+        margin-top: 10%;
+    }
+
+    .cardio-title {
+        margin-top: 30%;
+        margin-left: 1%;
+    }
+
+    .trauma-container, .cardio-container {
+        gap: 0;
+    }
 }
 
 @media (min-width: 1000px) {
@@ -921,6 +1014,38 @@ footer-logo img {
         grid-template-columns: repeat(3, 30%);
         grid-template-rows: 1fr;
         justify-content: space-around;
+    }
+}
+
+@media (max-width: 785px) {
+    .cardio-bg, .trauma-bg {
+        display: none;
+    }
+
+    .cardio--title {
+        margin-top: 30%;
+        margin-left: 0;
+    }
+
+    .trauma-title {
+        margin: 0 auto;
+    }
+
+    .cardio-container {
+        padding-right: 0;
+    } 
+
+    .cardio-text {
+        text-align: left;
+    }
+
+    .cardio-container, .trauma-container {
+        justify-items: center;
+    }
+
+    .trauma-container {
+        padding-left: 1%;
+        grid-template-rows: 0.5fr 1fr 1fr 0.8fr;
     }
 }
 
@@ -957,7 +1082,50 @@ footer-logo img {
     }
 }
 
+@media (min-width: 631px) {
+    h2 {
+        font-size: 35px;
+    }
+
+    .menu-mobile img {
+        display: none;
+    }
+}
+
 @media (max-width: 630px) {
+
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .cardio-container {
+        grid-template-rows: 0.8fr 0.8fr 0.8fr 0.5fr;
+    }
+
+    .cardio-title {
+        margin-bottom: 0;
+        /* margin-top: 45; */
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .menu-mobile img{
+        z-index: 1;
+        width: 25px;
+        height: 25px;
+    }
+
+    .cardio {
+        position: static;
+        height: 100%;
+    }
 
     .price {
         text-align: center;
@@ -974,6 +1142,18 @@ footer-logo img {
 
     .price-name, .price-number {
         font-size: 12px;
+    }
+    
+    .our-services-area, .doctors-area, .report-pics, .news-container  {
+        justify-content: center;
+    }
+
+    .report-nav {
+        margin: 0 auto;
+    }
+
+    .report-nav-list {
+        width: 80%;
     }
 
     .qa-container {
@@ -1022,14 +1202,10 @@ footer-logo img {
     color: black;
 }
 
+.button:active {
+    background-color: #e7161d;
+}
+
 .service:hover{
     cursor: pointer;
-}
-
-.cardio:hover {
-    width: 65%;
-}
-
-.trauma:hover {
-    width: 65%;
 }

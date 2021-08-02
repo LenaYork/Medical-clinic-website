@@ -1,2 +1,4 @@
 # Medical-clinic-website
-Верстка сайт медклиники по макету
+Верстка сайта медклиники по макету
+
+Ссылка на просмотр сайта - https://lenayork.github.io/Medical-clinic-website/

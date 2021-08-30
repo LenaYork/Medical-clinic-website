@@ -56,6 +56,10 @@ li {
     color: #32495E;
 }
 
+.header-nav a:hover {
+    color: #95258E;
+}
+
 .header-nav-dropdown {
     margin-left: 3px;
     margin-bottom: 2px;
@@ -254,6 +258,10 @@ li {
     width: 281px;
     height: 322px;
     margin-bottom: 20px;
+}
+
+.our-services-hidden:hover, .our-services-item:hover {
+    cursor: pointer;
 }
 
 .our-services-bg {
@@ -888,6 +896,11 @@ footer-logo img {
     line-height: 17px;
 }
 
+.footer-nav-item:hover {
+    cursor: pointer;
+    color: #e95258;
+}
+
 .footer-info{
     width: 90%;
     display: grid;
@@ -911,8 +924,18 @@ footer-logo img {
     grid-area: footer-info;
 }
 
+.footer-social-icon {
+    border: 2px solid #333333;
+    border-radius: 50%;
+}
+
 .footer-social-icon:hover{
     cursor: pointer;
+    border: 2px solid #e95258;
+}
+
+.footer-social-icon:active {
+    border: 2px solid #b6209d;
 }
 
 .up {

@@ -1,7 +1,7 @@
 @import url("../fonts/TTHoves/stylesheet.css");
 
 h2, h3 {
-    margin: 0 auto;
+    margin: 0;
     transition: 2s;
 }
 
@@ -101,7 +101,7 @@ li {
 .cardio-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr 1fr 1fr ;
+    grid-template-rows: minmax(108px, 2fr) 1fr 1fr 1fr ;
     justify-items: end;
     /* gap: 5%; */
     padding-right: 10%;
@@ -118,9 +118,12 @@ li {
     font-family: TT Hoves;
     font-style: normal;
     font-weight: 800;
+    /* max-width: 520px; */
+    min-height: 131px;
+    height: 50%;
     /* font-size: 26px; */
     line-height: 36px;
-    text-align: right;
+    
     text-transform: uppercase;
     color: #F9F9F9; 
     /* margin-top: 30%;
@@ -976,16 +979,21 @@ footer-logo img {
     }
 
     .trauma-title {
-        margin-top: 30%;
+        /* margin-top: 30%; */
+        margin-top: 165px;
+        max-width: 520px;
     }
 
     .cardio-title {
-        margin-top: 30%;
-        margin-left: 170px;
+        /* margin-top: 30%; */
+        margin-top: 165px;
+        /* margin-left: 170px; */
+        max-width: 520px;
+        text-align: right;
     }
 
     .trauma-container, .cardio-container {
-        gap: 5%;
+        /* gap: 5%; */
     }
 }
 
@@ -1015,11 +1023,13 @@ footer-logo img {
     }
 
     .trauma-title {
-        margin-top: 10%;
+        /* margin-top: 10%; */
+        margin-top: 175px;
     }
 
     .cardio-title {
-        margin-top: 30%;
+        /* margin-top: 30%; */
+        margin-top: 175px;
         margin-left: 1%;
     }
 
@@ -1123,8 +1133,7 @@ footer-logo img {
     }
 }
 
-@media (max-width: 630px) {
-
+@media (max-width: 800px) {
     h2 {
         font-size: 20px;
         text-align: center;
@@ -1133,6 +1142,9 @@ footer-logo img {
     h3 {
         text-align: center;
     }
+}
+
+@media (max-width: 631px) {
 
     .cardio-container {
         grid-template-rows: 0.8fr 0.8fr 0.8fr 0.5fr;
@@ -1140,6 +1152,7 @@ footer-logo img {
 
     .cardio-title {
         margin-bottom: 0;
+        min-height: 60px;
         /* margin-top: 45; */
     }
 
@@ -1155,7 +1168,7 @@ footer-logo img {
 
     .cardio {
         position: static;
-        height: 100%;
+        height: 700px;
     }
 
     .price {

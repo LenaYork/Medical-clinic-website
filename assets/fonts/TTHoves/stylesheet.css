@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'TT Hoves';
+    src: url('TTHoves-DemiBold.eot');
+    src: local('TT Hoves DemiBold'), local('TTHoves-DemiBold'),
+        url('TTHoves-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('TTHoves-DemiBold.woff2') format('woff2'),
+        url('TTHoves-DemiBold.woff') format('woff'),
+        url('TTHoves-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    src: url('TTHoves-Italic.eot');
+    src: local('TT Hoves Italic'), local('TTHoves-Italic'),
+        url('TTHoves-Italic.eot?#iefix') format('embedded-opentype'),
+        url('TTHoves-Italic.woff2') format('woff2'),
+        url('TTHoves-Italic.woff') format('woff'),
+        url('TTHoves-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    src: url('TTHoves-ExtraBold.eot');
+    src: local('TT Hoves ExtraBold'), local('TTHoves-ExtraBold'),
+        url('TTHoves-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('TTHoves-ExtraBold.woff2') format('woff2'),
+        url('TTHoves-ExtraBold.woff') format('woff'),
+        url('TTHoves-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    src: url('TTHoves-Regular.eot');
+    src: local('TT Hoves Regular'), local('TTHoves-Regular'),
+        url('TTHoves-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TTHoves-Regular.woff2') format('woff2'),
+        url('TTHoves-Regular.woff') format('woff'),
+        url('TTHoves-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    src: url('TTHoves-Medium.eot');
+    src: local('TT Hoves Medium'), local('TTHoves-Medium'),
+        url('TTHoves-Medium.eot?#iefix') format('embedded-opentype'),
+        url('TTHoves-Medium.woff2') format('woff2'),
+        url('TTHoves-Medium.woff') format('woff'),
+        url('TTHoves-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}

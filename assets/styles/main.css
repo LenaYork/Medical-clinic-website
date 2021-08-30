@@ -792,7 +792,7 @@ padding-bottom: 15px;
     grid-area: qa-circles;
 }
 
-.qa-circle:hover, .qa-circle-active:hover{
+.qa-circle img:hover, .qa-circle-active img:hover{
     cursor: pointer;
 }
 

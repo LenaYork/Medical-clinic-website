@@ -61,7 +61,7 @@ li {
     margin-bottom: 2px;
 }
 
-.header-nav-dropdown:hover{
+.header-nav li:hover{
     cursor: pointer;
 }
 

@@ -123,6 +123,10 @@ li {
     margin-left: 170px; */
 }
 
+.header-logo-pic:hover {
+    cursor: pointer;
+}
+
 .cardio-text {
     /* margin-right: 100px; */
     width: 200px;

@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
 h2, h3 {
     margin: 0 auto;
     transition: 2s;
@@ -46,12 +52,16 @@ li {
 }
 
 .header-nav a{
-    font-family: TT Hoves;
+    font-family: Lora;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
     color: #32495E;
+}
+
+.header-nav a:hover {
+    border-bottom: 2px solid #4a4040;
 }
 
 .header-nav-dropdown {
@@ -66,6 +76,8 @@ li {
 .menu-mobile {
     padding-top: 2%;
     width: 15%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .menu-mobile img{
@@ -108,8 +120,12 @@ li {
     bottom: 0;
 }
 
+.title-container {
+    margin-top: 25%;
+}
+
 .cardio-title {
-    font-family: TT Hoves;
+    font-family: Lora;
     font-style: normal;
     font-weight: 800;
     /* font-size: 26px; */
@@ -125,7 +141,7 @@ li {
     /* margin-right: 100px; */
     width: 200px;
     padding-right: 0;
-    font-family: TT Hoves;
+    font-family: Sintony;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -136,7 +152,7 @@ li {
 
 .cardio-service {
     /* margin-right: 100px; */
-    font-family: TT Hoves;
+    font-family: Sintony;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -176,7 +192,8 @@ li {
 }
 
 .trauma-title {   
-    font-family: TT Hoves;
+    /* text-align: left; */
+    font-family: Lora;
     font-style: normal;
     font-weight: 800;
     /* font-size: 26px; */
@@ -188,7 +205,7 @@ li {
 
 .trauma-text {
     width: 200px;
-    font-family: TT Hoves;
+    font-family: Sintony;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -197,7 +214,7 @@ li {
 }
 
 .trauma-button {
-    font-family: TT Hoves;
+    font-family: Sintony;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -210,7 +227,7 @@ li {
 
 .trauma-service {
     /* margin-right: 100px; */
-    font-family: TT Hoves;
+    font-family: Sintony;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -226,7 +243,7 @@ li {
 }
 
 .our-services-title {
-    font-family: TT Hoves;
+    font-family: Lora;
     font-style: normal;
     font-weight: 800;
     /* font-size: 35px; */
@@ -281,7 +298,7 @@ li {
 }
 
 .our-services-item-title {
-    font-family: TT Hoves;
+    font-family: Lora;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -299,7 +316,8 @@ li {
 }
 
 .our-service-hidden-text {
-    font-family: TT Hoves;
+    margin-top: 10px;
+    font-family: Lora;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -313,7 +331,7 @@ li {
     margin: 0 auto;
     margin-top: 5%;
 
-    font-family: TT Hoves;
+    font-family: Lora;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -332,7 +350,7 @@ li {
 .doctors-title {
     padding:  2% 5%;
     background-color: #32495E;
-    font-family: TT Hoves;
+    font-family: Lora;
     font-style: normal;
     font-weight: 800;
     /* font-size: 35px; */
@@ -345,7 +363,7 @@ li {
     display: grid;
     grid-template-columns: repeat(auto-fit, 251px);
     justify-content: space-between;
-    grid-gap: 5px;
+    grid-gap: 30px;
     padding: 5%;
     padding-top: 2%;
     background-color: #F9F9F9;
@@ -362,7 +380,7 @@ padding-bottom: 15px;
 
 .doctors-name {
     margin-bottom: 15px;
-    font-family: TT Hoves;
+    font-family: Lora;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -371,7 +389,7 @@ padding-bottom: 15px;
 }
 
 .doctors-text {
-    font-family: TT Hoves;
+    font-family: Sintony;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -385,7 +403,7 @@ padding-bottom: 15px;
 }
 
 .price-title {
-    font-family: TT Hoves;
+    font-family: Lora;
     font-style: normal;
     font-weight: 800;
     /* font-size: 35px; */
@@ -402,7 +420,7 @@ padding-bottom: 15px;
 
 .prices-table-title {
     margin-bottom: 25px;
-    font-family: TT Hoves;
+    font-family: Sintony;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -411,7 +429,7 @@ padding-bottom: 15px;
 }
 
 .price-name {
-    font-family: TT Hoves;
+    font-family: Lora;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -420,7 +438,7 @@ padding-bottom: 15px;
 }
 
 .price-number {
-    font-family: TT Hoves;
+    font-family: Sintony;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -444,7 +462,7 @@ padding-bottom: 15px;
 .report-title {
     padding: 5%;
     padding-bottom: 1%;
-    font-family: TT Hoves;
+    font-family: Lora;
     font-style: normal;
     font-weight: 800;
     /* font-size: 35px; */
@@ -463,7 +481,7 @@ padding-bottom: 15px;
 .report-nav-item {
     width: 90px;
     padding-bottom: 5px;
-    font-family: TT Hoves;
+    font-family: Lora;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -487,7 +505,7 @@ padding-bottom: 15px;
 }
 
 .report-pics-button {
-    font-family: TT Hoves;
+    font-family: Lora;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -567,7 +585,8 @@ padding-bottom: 15px;
 }
 
 .report-item-text {
-    font-family: TT Hoves;
+    text-shadow: 1px 1px #023407;
+    font-family: Sintony;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -586,7 +605,7 @@ padding-bottom: 15px;
 
 .report-button {
     margin: 0 auto;
-    font-family: TT Hoves;
+    font-family: Lora;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -613,7 +632,7 @@ padding-bottom: 15px;
 }
 
 .news-title {
-    font-family: TT Hoves;
+    font-family: Lora;
     font-style: normal;
     font-weight: 800;
     /* font-size: 35px; */
@@ -661,7 +680,7 @@ padding-bottom: 15px;
 }
 
 .news-item-title {
-    font-family: TT Hoves;
+    font-family: Lora;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -670,7 +689,7 @@ padding-bottom: 15px;
 }
 
 .news-item-text {
-    font-family: TT Hoves;
+    font-family: Lora;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -679,7 +698,7 @@ padding-bottom: 15px;
 }
 
 .news-link a{
-    font-family: TT Hoves;
+    font-family: Sintony;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -698,7 +717,7 @@ padding-bottom: 15px;
 }
 
 .recommend-title {
-    font-family: TT Hoves;
+    font-family: Lora;
     font-style: normal;
     font-weight: 800;
     /* font-size: 35px; */
@@ -721,7 +740,7 @@ padding-bottom: 15px;
 }
 
 .qa-title {
-    font-family: TT Hoves;
+    font-family: Lora;
     font-style: normal;
     font-weight: 800;
     /* font-size: 35px; */
@@ -737,7 +756,7 @@ padding-bottom: 15px;
 }
 
 .qa-questions p {
-    font-family: TT Hoves;
+    font-family: Sintony;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -746,7 +765,7 @@ padding-bottom: 15px;
 }
 
 .qa-answer-title {
-    font-family: TT Hoves;
+    font-family: Sintony;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -759,7 +778,7 @@ padding-bottom: 15px;
 }
 
 .qa-answer {
-    font-family: TT Hoves;
+    font-family: Sintony;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -799,7 +818,7 @@ padding-bottom: 15px;
 
 .contacts-title {
     margin-bottom: 5%;
-    font-family: TT Hoves;
+    font-family: Lora;
     font-style: normal;
     font-weight: 800;
     /* font-size: 35px; */
@@ -809,7 +828,7 @@ padding-bottom: 15px;
 }
 
 .contacts-subtitle {
-    font-family: TT Hoves;
+    font-family: Sintony;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -818,7 +837,7 @@ padding-bottom: 15px;
 }
 
 .contacts-text {
-    font-family: TT Hoves;
+    font-family: Sintony;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -835,7 +854,7 @@ padding-bottom: 15px;
     width: 100%;
     max-width: 1400px;
     color: #F9F9F9;
-    font-family: TT Hoves;
+    font-family: Sintony;
     font-style: normal;
     background-color: #333;
 }
@@ -875,7 +894,7 @@ footer-logo img {
 
 .footer-nav-item {
     color: #F9F9F9;
-    font-family: TT Hoves;
+    font-family: Lora;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -911,7 +930,7 @@ footer-logo img {
 
 .up {
     position: absolute;
-    right: 10%;
+    right: 3%;
     top: 15%;
     display: flex;
     flex-direction: column;
@@ -951,7 +970,7 @@ footer-logo img {
     }
 
     .cardio-title {
-        margin-top: 30%;
+        /* margin-top: 30%; */
         margin-left: 170px;
     }
 
@@ -990,8 +1009,8 @@ footer-logo img {
     }
 
     .cardio-title {
-        margin-top: 30%;
-        margin-left: 1%;
+        /* margin-left: 1%; */
+        /* margin-top: 25%; */
     }
 
     .trauma-container, .cardio-container {
@@ -1020,6 +1039,11 @@ footer-logo img {
 }
 
 @media (max-width: 785px) {
+    .cardio {
+        height: 650px;
+    }
+
+    
     .cardio-bg, .trauma-bg {
         display: none;
     }
@@ -1082,6 +1106,24 @@ footer-logo img {
         grid-template-rows: 0.3fr 1.7fr;
         justify-content: space-around;
     }
+
+    .news-container {
+        justify-content: space-around;
+    }
+
+    .report {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .report-pics {
+        justify-content: center;
+    }
+
+    .report-nav-list {
+        margin: 0 auto;
+    }
 }
 
 @media (min-width: 631px) {
@@ -1126,7 +1168,7 @@ footer-logo img {
 
     .cardio {
         position: static;
-        height: 100%;
+        /* height: 100%; */
     }
 
     .price {
@@ -1146,7 +1188,7 @@ footer-logo img {
         font-size: 12px;
     }
     
-    .our-services-area, .doctors-area, .report-pics, .news-container  {
+    .our-services-area, .doctors-area, .report-pics, .news-container, .recommend-container  {
         justify-content: center;
     }
 
@@ -1155,7 +1197,8 @@ footer-logo img {
     }
 
     .report-nav-list {
-        width: 80%;
+        width: 50%;
+        margin: 0 auto;
     }
 
     .qa-container {
@@ -1183,25 +1226,32 @@ footer-logo img {
     } 
 }
 
+
 .button {
     background: transparent;
     padding: 16px 44px;
     border-radius: 25px;
-    font-family: TT Hoves;
+    font-family: Lora;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
     text-align: center;
     display: block;
-    transition: 2s;
+    transition: background-color 2s, outline 0.5s;
 }
 
 .button:hover {
     cursor: pointer;
     opacity: 0.5;
     background-color: #E95258;
-    color: black;
+    text-shadow: 1px 1px 5px black;
+    color: white;
+}
+
+.button:active {
+    outline: 2px solid #f73434;
+    border: 2px solid transparent;
 }
 
 .button:active {
